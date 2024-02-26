@@ -137,13 +137,13 @@ function App() {
         <div class="row row-cols-1 row-cols-md-2 g-3">
   
   <div class="col">
-    <Link to='luxuryliquors.netlify.app'>
+    <Link to='/luxuryliquors.netlify.app'>
     <div class="card">
       <img src="../images/liquors.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Luxury Liquors</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     <Link to='luxuryliquors.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+     <Link to='/luxuryliquors.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
       </div>
     </div>
     </Link>
@@ -151,13 +151,13 @@ function App() {
 
 
   <div class="col">
-    <Link to='mwanazbites.netlify.app'>
+    <Link to='/mwanazbites.netlify.app'>
     <div class="card">
       <img src="../images/mwanaz.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Mwanaz Bites</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='mwanazbites.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <Link to='/mwanazbites.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
       </div>
     </div>
     </Link>
@@ -166,13 +166,13 @@ function App() {
 
 
   <div class="col">
-    <Link to='kamidental.netlify.app'>
+    <Link to='/kamidental.netlify.app'>
     <div class="card">
       <img src="../images/kamident.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kamident Dental </h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <Link to='kamidental.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <Link to='/kamidental.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
       </div>
     </div>
     </Link>
@@ -181,13 +181,13 @@ function App() {
 
 
   <div class="col">
-    <Link to='ameerahorganics.netlify.app'>
+    <Link to='/ameerahorganics.netlify.app'>
     <div class="card">
       <img src="../images/ameerah.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Ameerah Organics</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='ameerahorganics.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <Link to='/ameerahorganics.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
 
       </div>
     </div>
@@ -197,13 +197,13 @@ function App() {
 
 
   <div class="col">
-    <Link to='kitiyangu.netlify.app'>
+    <Link to='/kitiyangu.netlify.app'>
     <div class="card">
       <img src="../images/kitiyangu.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kiti yangu Furnitures</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='kitiyangu.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <Link to='/kitiyangu.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
       </div>
     </div>
     </Link>
