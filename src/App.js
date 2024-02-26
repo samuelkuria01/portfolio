@@ -65,7 +65,7 @@ function App() {
           <h3>UX/UI Designer</h3>
           <h3>Full Stack Web</h3>
           <h3>Developer</h3>
-          <p className='provide'>Providing proficient and responsiveness suiting customer needs</p>
+          <p className='provide'>Providing proficient and responsive web applications suiting customer needs</p>
         </div>
        
       </div>
@@ -142,7 +142,7 @@ function App() {
       <img src="../images/liquors.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Luxury Liquors</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Introducing "LuxuryLiquors" – your premier destination for top-tier spirits delivered straight to your doorstep. With a sleek interface and curated selection, LiquorLux offers a seamless shopping experience. From rare finds to beloved classics, discover your next favorite drink with us. Cheers to convenience and quality with LiquorLux.</p>
         <a href='https://mwanazbites.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
@@ -156,7 +156,7 @@ function App() {
       <img src="../images/mwanaz.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Mwanaz Bites</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Introducing "Mwanaz Bites" – your culinary haven for delicious delights. With Mwanaz Bites, explore a world of flavors right at your fingertips. From hearty breakfasts to gourmet lunches, savor every bite with our mouthwatering menu. Whether you're craving comfort classics or adventurous eats, indulge your taste buds at Mwanaz Bites. Your culinary journey awaits.</p>
         <a href='https://mwanazbites.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
@@ -171,7 +171,7 @@ function App() {
       <img src="../images/kamident.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kamident Dental </h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Introducing "Kamident Dental" – your trusted partner for dental wellness. At Kamident Dental, we're dedicated to your oral health and radiant smiles. From routine check-ups to specialized treatments, our expert team provides personalized care with a gentle touch. Experience comfort, confidence, and care at Kamident Dental. Your journey to a brighter smile begins here.</p>
         <a href='https://kamidental.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
@@ -186,7 +186,7 @@ function App() {
       <img src="../images/ameerah.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Ameerah Organics</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Introducing "Ameerah Organics" – your natural beauty destination. At Ameerah Organics, we believe in the power of nature to nurture your skin. Explore our range of organic cosmetics, crafted with care to enhance your natural radiance. From skincare essentials to makeup must-haves, indulge in pure, clean beauty with Ameerah Organics. Let your inner glow shine with confidence.</p>
         <a href='https://ameerahorganics.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
 
       </div>
@@ -202,7 +202,7 @@ function App() {
       <img src="../images/kitiyangu.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kiti yangu Furnitures</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Introducing "Kiti Yangu" – your sanctuary of style and comfort. At Kiti Yangu Furnitures, we redefine relaxation with our curated collection of furniture pieces. From sleek modern designs to timeless classics, discover furnishings that elevate your space and soothe your soul. Create your haven of comfort and style with ComfortHaven. Transform your home into a sanctuary of relaxation and beauty.</p>
         <a href='https://kitiyangu.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
@@ -215,7 +215,8 @@ function App() {
       <img src="../images/magunas.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Magunas Supermarket</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">
+Introducing "Magunas Supermarket" – your one-stop shop for fresh groceries and everyday essentials. At Magunas Supermarket, we're committed to quality, convenience, and community. Explore our aisles stocked with farm-fresh produce, pantry staples, and household necessities. With friendly service and competitive prices, Magunas Supermarket makes grocery shopping a breeze. Experience the freshness at Magunas Supermarket – where every visit feels like home.</p>
         <Link className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
 
       </div>
