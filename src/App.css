@@ -271,6 +271,13 @@ nav ul li button a{
 }
 
 @media screen and (max-width: 450px) {
+  nav ul{
+    display: flex;
+    gap: 2rem;
+  }
+  .portfolio .card-text{
+    font-size: 14px;
+  }
   .myportfoliocont .card img{
     height: 200px;
   }
