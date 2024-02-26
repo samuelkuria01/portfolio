@@ -3,11 +3,11 @@ function About() {
   return (
     <div className='bigmanabout'>
    <h2 className='aboutheader'>About</h2>
-    <div className='row'>
-        <div className='col-1'>
+    <div className='roww'>
+        <div className='coll-1'>
             <img src='../images/img1.png' alt='contimage'></img>
         </div>
-        <div className='col-2'>
+        <div className='coll-2'>
         <div className='abutstory'>
         <p className='p1'>I am Samuel Kuria, a web developer that thrives on bringing ideas to life with code !</p>
       <p className='p1'>I have been fortunate to study at <span>Moringa School</span> and sharpen my skills at Sofware Engineering</p>

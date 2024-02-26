@@ -1,198 +1,191 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hedvig+Letters+Serif:opsz@12..24&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:opsz,wght@6..12,200&family=Playfair+Display:wght@400..900&family=Protest+Revolution&family=Rubik+Burned&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
-body{
-  height: 100vh;
-  background-color: rgb(245, 245, 245);
-}
-.navcontainer{
-  background-color: rgba(160, 221, 247, 0.55);
-}
-.navwrapper{
-  display: flex;
-  width: 100%;
-  height: 120px;
-  max-width: 1600px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-}
+.myhome{
+  background-color: rgb(29, 28, 28);
 
-.navwrapper a{
-font-size: 20px;
-font-weight: bolder;
-margin-left: 100px;
-text-decoration: none;
-color: rgb(17, 115, 213);
-transition: 0.2s;
 }
-.navwrapper a:hover{
-  background-color: rgb(0, 0, 0);
-  padding: 10px 10px;
-  border-radius: 30px;
+.sk{
+  font-family: "Protest Revolution", sans-serif;
+font-size: 90px;
+color: white;
 }
-.portfolio a{
-  font-size: 50px;
-  color: rgb(80, 156, 233);
-}
-.homecontainer{
+nav{
+  background-color: rgb(29, 28, 28);
+
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.homewrapper{
-  margin-top: 10%;
-  margin-left: 10%;
+nav ul li button a{
+text-decoration: none;
+color: white;
+font-size: 18px;
 }
-.homewrapper p{
+nav ul li button{
+  border: none;
+  background-color: inherit;
+}
+nav ul{
+  display: flex;
+  gap: 3rem;
+}
+nav ul li{
+list-style: none;
+} 
+.manyala{
+  font-family: "Protest Revolution", sans-serif;
+  color: rgb(7, 132, 46);
+}
+.hello{
+  color: white;
   font-size: 25px;
 }
-.homewrapper h3{
-  font-size: 105px;
-  
+.mwanzilishi{
+display: flex;
+justify-content: space-around;
+padding-top: 5%;
+padding-bottom: 5%;
+/* margin-top: 5%; */
 }
-.homewrapper h5{
-  font-size: 35px;
-  font-weight: 400;
-  margin-top: 1%;
+.sooft{
+  color: rgb(7, 132, 46);
 }
-.story p{
+.web{
+  color: rgb(255, 255, 255);
+}
+.contactymee{
+  padding: 10px;
+  background-color: white;
+margin-top: 3%;
+}
+.contactymee a{
+  font-weight: 600;
+  color: green;
+  text-decoration: none;
+  background-color: inherit;
+}
+.shortdesi{
+  color: white;
+}
+.intro{
+  color: rgb(7, 132, 46);
+  font-size: 12px;
+}
+.servme{
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.servemeseen{
+  background-color: rgb(36, 36, 36);
+}
+.servme h2{
+  color: rgb(7, 132, 46);
   font-size: 20px;
-  margin-top: 3%;
-  width: 70%;
   font-weight: 600;
 }
-.homebutton{
-  margin-top: 4%;
+.col {
+  flex: 0 0 auto;
+  width: 21.333333%;
 }
-.homebutton .btn2{
-margin-left: 20%;
-font-size: 25px;
-}
-.homebutton .btn1{
-  font-size: 25px;
-
-}
-.btn1,.btn2 {
-  justify-content: center;
-  align-items: center;
-  padding: 10px 15px;
-  gap: 15px;
-  background-color: rgba(35, 173, 232, 0.898);
-  outline-offset: -3px;
-  border-radius: 35px;
-  border: none;
-  cursor: pointer;
-  transition: 400ms;
-}
-
-.btn1 ,.btn2 {
+.card{
+  background-color: inherit;
   color: white;
-  transition: 400ms;
-}
-
-.btn1 svg path,.btn2 svg path {
-  transition: 400ms;
-}
-
-.btn1:hover  {
-  color: #000000a5;
-  background-color: rgba(75, 196, 248, 0.55);
-}
-.btn2:hover  {
-  color: #000000a5;
-  background-color: rgba(75, 196, 248, 0.55);
-}
-.homeimg img{
-  width: 100%;
-  border-radius: 100%;
   margin-top: 10%;
-margin-left: -20%;
 }
-
-.aboutcontainer{
-  display: flex;
-  margin-top: 6%;
-  margin-left: 10%;
-}
-
-
-
-.abutstory{
-  margin-left: 5%;
-}
-.p1{
-  margin-bottom: 2%;
-  font-size: 20px;
-  width: 80%;
-}
-.abutstory span{
-  color: blue;
-  font-weight: 500;
-}
-.bigmanabout h2{
-  margin-left: 46%;
-  margin-top: 2%;
-  font-size: 60px;
-  margin-bottom: -5%;
+.card img {
+  height: 300px;
 }
 .row{
+margin-left: 10%; 
+ margin-right: 0;
+}
+.knowme{
+display: flex;
+gap: 0.8rem;
+}
+.knowme h3{
+  font-size: 18px;
+  font-family: "Protest Revolution", sans-serif;
+letter-spacing: 5px;
+}
+.knowme p{
+  font-size: 13px;
+}
+.form-control{
+  width: 220%;
+  border:2px solid rgba(206, 206, 206, 0.887) ;
+  background-color: rgba(0, 0, 0, 0.802);
+  border-radius: 12px;
+  color: white;
+}
+
+.contactheader{
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.knowmecontainer{
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 10%;
-  justify-content: space-between;
+  margin-left: 30%;
+  gap: 10rem;
 }
-.col-1{
-  flex-basis: 40%;
-  min-width: 300px;
-  margin-left: 30px;
-  margin-top: -8%;
+.contactooo{
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 15px;
 }
-.col-2{
-  flex-basis: 55%;
-  margin-bottom: 30px;
-  margin-left: 60px;
+.send{
+  border-radius: 15px;
+  padding: 5px;
+  background-color: rgb(62, 61, 61);
+  color: rgb(255, 255, 255);
+  transition: 0.3s ease-in-out;
 }
-.col-1 img{
-  width: 100%;
+.send:hover{
+  background-color: black;
+  color: green;
 }
-.contactus{
-  display: flex;
-  gap: 8rem;
+.contactheader span{
+  color: green;
+  font-family: "Protest Revolution", sans-serif;
+}.contactheader  h3{
+  font-size: 17px;
 }
-.contactus i{
- font-size: 40px;
- margin-bottom: 5%;
+/* .col{
+  width: 30%;
+} */
+.myportfoliocont .card img{
+  height: 250px;
 }
-.contheader{
-  font-size: 60px;
-  margin-bottom: 2%;
-  color: rgb(80, 156, 233);
+.myportfoliocont .col{
+width: 30%;
 }
-.contactus p{
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-weight: 500;
-  color: rgb(31, 110, 190);
-}
-.contactus h3{
-  font-size: 27px;
-}
-.contend{
-  font-size: 20px;
-  margin-top: 3%;
-  font-weight: 100;
-}
-.contacticon {
-  font-size: 30px;
-}
-.contacticon i{
-  margin-left: 5%;
-  margin-top: 5%;
-  color: rgb(31, 110, 190);
-}
-.contacticon i:hover{
+.myportfoliocont .card-body{
   color: black;
+}
+.viewpro{
+  text-decoration: none;
+  color: black;
+}
+.viewpro:hover{
+  text-decoration: underline;
+  color: black;
+}
+.portfolio .card-title{
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  color: green;
+  font-family: 'Raleway', sans-serif;
+}
+.portfolio  a{
+  text-decoration: none;
 }

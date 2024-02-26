@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function Contact() {
   return (
     <div>
-      <div className='row'>
-        <div className='col-1'>
+      <div className='roww'>
+        <div className='coll-1'>
             <img src='../images/img2.png' alt='contimage'></img>
         </div>
-        <div className='col-2'>
+        <div className='coll-2'>
         <h2 className='contheader'>Get In Touch</h2>
         <div className='contactus'>
             <div>
