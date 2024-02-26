@@ -87,7 +87,7 @@ function App() {
       <img src="https://rdigigosolution.com/wp-content/uploads/2023/06/Whats-the-difference-between-UI-and-UX-Design-Services.webp" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">UX/UI Design</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -96,7 +96,7 @@ function App() {
       <img src="https://cdn-icons-png.flaticon.com/512/9414/9414296.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Web Development</h5>
-        <p class="card-text">This is a short card.</p>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@ function App() {
       <img src="../images/seo.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Google SEO</h5>
-        <p class="card-text"> is the process of improving the quality and quantity of website traffic.</p>
+        <p class="card-text"></p>
       </div>
     </div>
   </div>
@@ -128,7 +128,7 @@ function App() {
 
 
       <section className='portfolio' ref={MyWorkref}>
-        <div>
+        <div className='jinakubwaa'>
         <h2>PORTFOLIO </h2>
         <p><span>MY</span>Career</p>
         </div>
@@ -137,76 +137,76 @@ function App() {
         <div class="row row-cols-1 row-cols-md-2 g-3">
   
   <div class="col">
-    <Link to='/luxuryliquors.netlify.app'>
+  <a href='https://luxuryliquors.netlify.app' target='_blank' rel='noopener noreferrer'>
     <div class="card">
       <img src="../images/liquors.png" class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Luxury Liquors</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-     <Link to='/luxuryliquors.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <a href='https://mwanazbites.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
-    </Link>
+    </a>
   </div>
 
 
   <div class="col">
-    <Link to='/mwanazbites.netlify.app'>
+  <a href='https://mwanazbites.netlify.app' target='_blank' rel='noopener noreferrer'>
     <div class="card">
       <img src="../images/mwanaz.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Mwanaz Bites</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='/mwanazbites.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <a href='https://mwanazbites.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
-    </Link>
+    </a>
    
   </div>
 
 
   <div class="col">
-    <Link to='/kamidental.netlify.app'>
+  <a href='https://kamidental.netlify.app' target='_blank' rel='noopener noreferrer'>
     <div class="card">
       <img src="../images/kamident.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kamident Dental </h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        <Link to='/kamidental.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <a href='https://kamidental.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
-    </Link>
+    </a>
    
   </div>
 
 
   <div class="col">
-    <Link to='/ameerahorganics.netlify.app'>
+  <a href='https://ameerahorganics.netlify.app' target='_blank' rel='noopener noreferrer'>
     <div class="card">
       <img src="../images/ameerah.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Ameerah Organics</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='/ameerahorganics.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <a href='https://ameerahorganics.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
 
       </div>
     </div>
-    </Link>
+    </a>
   
   </div>
 
 
   <div class="col">
-    <Link to='/kitiyangu.netlify.app'>
+  <a href='https://kitiyangu.netlify.app' target='_blank' rel='noopener noreferrer'>
     <div class="card">
       <img src="../images/kitiyangu.png"  class="card-img-top" alt="..."/>
       <div class="card-body">
         <h5 class="card-title">Kiti yangu Furnitures</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <Link to='/kitiyangu.netlify.app' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></Link>
+        <a href='https://kitiyangu.netlify.app' target='_blank' rel='noopener noreferrer' className='viewpro'>View Project <i class="fa-solid fa-arrow-right fa-beat"></i></a>
       </div>
     </div>
-    </Link>
+    </a>
   </div>
 
   <div class="col">

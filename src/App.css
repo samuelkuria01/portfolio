@@ -113,12 +113,13 @@ display: flex;
 gap: 0.8rem;
 }
 .knowme h3{
-  font-size: 18px;
+  text-decoration: underline;
+  font-size: 13px;
   font-family: "Protest Revolution", sans-serif;
 letter-spacing: 5px;
 }
 .knowme p{
-  font-size: 13px;
+  font-size: 18px;
 }
 .form-control{
   width: 220%;
@@ -170,15 +171,18 @@ letter-spacing: 5px;
 width: 30%;
 }
 .myportfoliocont .card-body{
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .viewpro{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .viewpro:hover{
-  text-decoration: underline;
-  color: black;
+  color: green;
+  font-family: 'Raleway', sans-serif;}
+.portfolio{
+  background-color: rgb(29, 28, 28);
+padding-bottom: 50px;
 }
 .portfolio .card-title{
   font-weight: bold;
@@ -188,4 +192,119 @@ width: 30%;
 }
 .portfolio  a{
   text-decoration: none;
+}
+.portfolio .card {
+  position: relative;
+  overflow: hidden; /* Ensures the image doesn't overflow its container */
+ 
+}
+
+.portfolio .card-img-top {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.portfolio .card:hover .card-img-top {
+  transform: scale(1.1); /* Zoom in on image when hovered */
+}
+.jinakubwaa{
+  padding-top: 2%;
+  text-align: center;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+nav{
+  display: block;
+}
+nav ul li button a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .myportfoliocont .card img{
+    height: 200px;
+  }
+  .myportfoliocont .col{
+    width: 95%;
+    }
+  .form-control{
+    width: 90%;
+    border:2px solid rgba(206, 206, 206, 0.887) ;
+    background-color: rgba(0, 0, 0, 0.802);
+    border-radius: 12px;
+    color: white;
+  }
+  
+  .knowmecontainer{
+    display: block;
+    margin-left: 30%;
+    gap: 10rem;
+  }
+  nav{
+    display: block;
+  }
+  nav ul li button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    }
+    .sk{
+      font-family: "Protest Revolution", sans-serif;
+    font-size: 28px;
+padding-left: 2%;  
+  }
+    .shortdesi h3{
+      font-size: 12px;
+    }
+    .shortdesi p{
+      font-size: 12px;
+      width: 80%;
+    }
+    .intro{
+      color: rgb(7, 132, 46);
+    }
+    .hello{
+      font-size: 12px;
+    }
+    .sooft{
+      font-size: 12px;
+    }
+    .mwanzilishi{
+      padding-left: 10%;
+      gap: 4rem;
+    }
+    .contactymee{
+      font-size: 12px;
+      padding: 5px;
+      background-color: white;
+    margin-top: 3%;
+    }
+    .contactymee a{
+      font-weight: 600;
+      color: green;
+      text-decoration: none;
+      background-color: inherit;
+    }
+    .servme h2{
+      font-size: 18px;
+    }
+    .servme h3{
+      font-size: 15px;
+    }
+    .servme p{
+      font-size: 12px;
+    }
+    .col{
+      flex: 0 0 auto;
+      width: 44.33%;
+    }
+    .card img{
+      height: 120px;
+    }
+
 }
